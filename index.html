@@ -5,22 +5,60 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Dias</title>
+    <title>Portifólio</title>
+    <meta name="Author" content="Pedro Dias">
     <script src="script.js"></script>
 </head>
 <body>
     <header>
-        <i class="fa-solid fa-bars"></i>
-        <h2>PEDRO DIAS</h2>
-        <h2>CONTATO</h2>
-        <h2>CURRÍCULO</h2>
+        <div class="sidemenu-open-close">
+            <input type="checkbox" name="" class="ckb-menu-open-close" onchange="toggleMenu()">
+            <i class="fa-solid fa-bars open-i"></i>
+            <div id="darkmode">
+               
+                <input type="checkbox" name="" id="ckbDark" onchange="toggleDarkmode(this)">
+                <span class="ckbdmStyle"></span>
+                
+            </div>
+        </div>
+        
+        <div id="sideMenu">
+            <div id="top-menu">
+                <h2>PEDRO DIAS</h2>
+                <div class="sidemenu-open-close">
+                    <input type="checkbox" name="" class="ckb-menu-open-close" onchange="toggleMenu()">
+                    <i class="fa-solid fa-x open-i"></i>
+                </div>
+            </div>
+            <ul>
+                <li><a href="">PROJETOS PESSOAIS</a></li>
+                <li><a href="">CURRÍCULO</a></li>
+                <li><a href="">CONTATO</a></li>
+                <li><a href="">GALERIA</a></li>
+            </ul>
+            <div id="menu-social-media">
+                <ul>
+                    <li><a href="https://api.whatsapp.com/send?phone=5531984687702"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="instagram.com/opedromigueel"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/pedro-miguel-costa-dias-914ba32b4/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/Costadiass/"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header-links">
+             <h2>CONTATO</h2>
+             <h2>CURRÍCULO</h2>
+        </div>
     </header>
     <main>
-        <h1>PedrO</h1>
-        <h1>DiaS</h1>
-        <h2>WEB DEVELOPER</h2>
-        div
+        <div id="main-text">
+            <h1>PedrO</h1>
+            <h1>DiaS</h1>
+            <h2>WEB DEVELOPER</h2>
+        </div>
+        <div id="foto">
+            <img src="Ellipse 1.png" alt="">
+        </div>
     </main>
-    
 </body>
 </html>
